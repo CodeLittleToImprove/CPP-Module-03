@@ -13,7 +13,8 @@
 
 #include "ClapTrap.hpp"
 
-int main() {
+int main()
+{
 	std::cout << "Creating A...\n";
 	ClapTrap A("Alpha Bot");
 

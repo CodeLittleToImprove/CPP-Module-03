@@ -1,11 +1,11 @@
-#ifndef CLAPTRAP_HPP
-# define CLAPTRAP_HPP_HPP
+#ifndef TEMPLATE_HPP
+# define TEMPLATE_HPP
 
 # include <iostream>
 
 class ClapTrap
 {
-	private:
+	protected:
 		std::string		_name;
 		unsigned int	_hp;
 		unsigned int	_energy_points;
