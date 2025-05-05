@@ -10,7 +10,7 @@ class ClapTrap
 		unsigned int	_hp;
 		unsigned int	_energy_points;
 		unsigned int	_attack_dmg;
-
+		virtual std::string getClassName() const;
 	public:
 		ClapTrap();
 		ClapTrap(std::string name);
